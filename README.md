@@ -1,6 +1,6 @@
 # flutter_pdf_view_fhi
 
-A new Flutter project.
+This project is an example of creating a widget that displays a PDF document obtained from the provided URL. The following code explains the same.
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ A few resources to get you started if this is your first Flutter project:
 - [Use `http` lib to load PDF URL link](https://pub.dev/packages/http)
 - [Use `printing` to display PDF content](https://pub.dev/packages/printing)
 
-##Fetch PDF content
+## Fetch PDF content
 ```
 Future<Uint8List?> _fetchPdfContent() async {
     const String url = "https://www.orimi.com/pdf-test.pdf";
@@ -28,7 +28,7 @@ Future<Uint8List?> _fetchPdfContent() async {
 }
 ```
 
-##Display PDF content
+## Display PDF content
 ```
 PdfPreview(
     allowPrinting: false,
